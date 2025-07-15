@@ -1,0 +1,9 @@
+//MO004-005.TXT ANA00004 TO ANA00005
+agentcontrole		FCNX+	MyConnection1	
+billet		FCNX+	MyConnection1	
+evenements		FCNX+	MyConnection1	
+organisateur		FCNX+	MyConnection1	
+utililisateur		FCNX+	MyConnection1	
+categoriebillet		FCNX+	MyConnection1	
+HistoriqueScan		FCNX+	MyConnection1	
+MyConnection1		CNX+		

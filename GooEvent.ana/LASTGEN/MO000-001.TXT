@@ -1,0 +1,12 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+agent		NFI		new data file
+agentcontrole		NFI		new data file
+billet		NFI		new data file
+evenements		NFI		new data file
+organisateur		NFI		new data file
+utililisateur		NFI		new data file
+Contrainte_Utililisateur_AgentControle		NWL	utililisateur (IDUtililisateur) and agentcontrole (IDUtililisateur)	New link between the utililisateur (IDUtililisateur) and agentcontrole (IDUtililisateur) data files
+Contrainte_AgentControle_Billet		NWL	agentcontrole (IDUtililisateur) and billet (IDUtililisateur)	New link between the agentcontrole (IDUtililisateur) and billet (IDUtililisateur) data files
+Contrainte_Organisateur_Evenements		NWL	organisateur (IDUtililisateur) and evenements (IDUtililisateur)	New link between the organisateur (IDUtililisateur) and evenements (IDUtililisateur) data files
+Contrainte_Utililisateur_Organisateur		NWL	utililisateur (IDUtililisateur) and organisateur (IDUtililisateur)	New link between the utililisateur (IDUtililisateur) and organisateur (IDUtililisateur) data files
+MyConnection1		CNX+		

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ANALYSE GenNum="2" VersionStructure="2" RepertoireDefaut=""><CONNEXION Nom="MyConnection1" Type="11"><SOURCE>25.53.150.214:4900</SOURCE><USER>admin</USER><MDP>kZaSm74=</MDP><DB>billetterie</DB><INFOS_ETENDUES>;Encryption = none;Initial Catalog=billetterie;Compression=none</INFOS_ETENDUES></CONNEXION></ANALYSE>

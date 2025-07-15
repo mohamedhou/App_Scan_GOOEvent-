@@ -1,0 +1,14 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+agentcontrole		NFI		new data file
+billet		NFI		new data file
+evenements		NFI		new data file
+organisateur		NFI		new data file
+utililisateur		NFI		new data file
+categoriebillet		NFI		new data file
+HistoriqueScan		NFI		new data file
+Contrainte_Utililisateur_AgentControle		NWL	utililisateur (IDUtililisateur) and agentcontrole (IDUtililisateur)	New link between the utililisateur (IDUtililisateur) and agentcontrole (IDUtililisateur) data files
+Contrainte_AgentControle_Billet		NWL	agentcontrole (IDUtililisateur) and billet (IDUtililisateur)	New link between the agentcontrole (IDUtililisateur) and billet (IDUtililisateur) data files
+Contrainte_Billet_CategorieBillet		NWL	categoriebillet (IDCategorieBillet) and billet (IDCategorieBillet)	New link between the categoriebillet (IDCategorieBillet) and billet (IDCategorieBillet) data files
+Contrainte_Evenements_CategorieBillet		NWL	evenements (IDEvenements) and categoriebillet (IDEvenements)	New link between the evenements (IDEvenements) and categoriebillet (IDEvenements) data files
+Contrainte_Organisateur_Evenements		NWL	organisateur (IDUtililisateur) and evenements (IDUtililisateur)	New link between the organisateur (IDUtililisateur) and evenements (IDUtililisateur) data files
+Contrainte_Utililisateur_Organisateur		NWL	utililisateur (IDUtililisateur) and organisateur (IDUtililisateur)	New link between the utililisateur (IDUtililisateur) and organisateur (IDUtililisateur) data files

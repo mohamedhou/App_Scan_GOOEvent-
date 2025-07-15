@@ -1,0 +1,11 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+agent		FIC-	agent	Data file deleted: agent
+agentcontrole		FIC-	agentcontrole	Data file deleted: agentcontrole
+billet		FIC-	billet	Data file deleted: billet
+evenements		FIC-	evenements	Data file deleted: evenements
+organisateur		FIC-	organisateur	Data file deleted: organisateur
+utililisateur		FIC-	utililisateur	Data file deleted: utililisateur
+Contrainte_Utililisateur_AgentControle		DEL	utililisateur (IDUtililisateur) and agentcontrole (IDUtililisateur)	Link deleted between utililisateur (IDUtililisateur) and agentcontrole (IDUtililisateur)
+Contrainte_AgentControle_Billet		DEL	agentcontrole (IDUtililisateur) and billet (IDUtililisateur)	Link deleted between agentcontrole (IDUtililisateur) and billet (IDUtililisateur)
+Contrainte_Organisateur_Evenements		DEL	organisateur (IDUtililisateur) and evenements (IDUtililisateur)	Link deleted between organisateur (IDUtililisateur) and evenements (IDUtililisateur)
+Contrainte_Utililisateur_Organisateur		DEL	utililisateur (IDUtililisateur) and organisateur (IDUtililisateur)	Link deleted between utililisateur (IDUtililisateur) and organisateur (IDUtililisateur)
